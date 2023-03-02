@@ -1,0 +1,107 @@
+*{
+    margin=0;
+    padding: 0;
+    box-sizing:border-box ;
+    font-family: "roboto",sans-serif;
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    background: linear-gradient(to bottom,rgb(106, 147, 160),#c6bcca);
+
+}
+.container{
+    width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.container.btn{
+    position: relative;
+    box-sizing:content-box;
+    top=0;
+    left: 0;
+    width: 1000px;
+    height: 5px;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}
+
+.forms-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    display: inline-block;
+}
+.section-title{
+    font-size: 32px;
+    letter-spacing: 1px;
+    color: #c6bcca;
+
+}
+.forms{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.forms-wrapper{
+    animation: hidelayer.3s ease-out forward;
+}
+.forms-wrapper.is-active{
+    animation: showlayer.3s ease-in forwards;
+    background-color: aqua;
+
+}
+.input-block{
+
+    box-sizing: 20px;
+    box:spacing 10px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: "muli",scan-serif;
+    padding: 20px 10px;
+    text-align: justify;
+    display: block;
+    font-display: spacing around;
+    display: flex;
+    justify-content: left;
+}
+.button{
+    display: inline-block;
+    background-color: blueviolet;
+
+} 
+
+
+
+.secial-icons li{
+margin: 0 20px;
+
+}.secial-icons li a{
+    border: 3px solid deepskyblue;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #c6bcca;
+    border-radius: 50%;
+    border-right: none;
+    border-top: none;
+    transition: 0.3s ease;
+}
+.secial-icons li a:hover{
+    border-top: 3px solid;
+    border-right: 3px solid;
+    transform: rotate(360deg);
+    background-color: deepskyblue;
+    border-color: aquamarine;
+}
